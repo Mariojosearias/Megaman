@@ -1297,7 +1297,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  extraJumpValue: 2
+  extraJumpValue: 1
   Dash: 0
   Dash_T: 0
   Speed_Dash: 10
