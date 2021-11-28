@@ -143,6 +143,19 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 4402183014637707560, guid: 6d3536152c0f7cf418d00355c6f4665b, type: 3}
   m_PrefabInstance: {fileID: 4402183014581424708}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &64975725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64975721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f495d0f49d83340ac7967af53d7e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 1
 --- !u!114 &64975727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreString: X
-  ScoreValue: 5
+  ScoreValue: 4
   TextScore: {fileID: 114005470}
 --- !u!1 &113974783
 GameObject:
@@ -1004,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreString: X
-  ScoreValue: 10
+  ScoreValue: 4
   TextScore: {fileID: 1466218526}
 --- !u!1 &503623782
 GameObject:
@@ -2932,7 +2945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2640682509516897701, guid: 7924d3c20af9f8447b6a26720b181d3e, type: 3}
       propertyPath: numEnemys
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2640682509516897702, guid: 7924d3c20af9f8447b6a26720b181d3e, type: 3}
       propertyPath: m_Name
@@ -19083,7 +19096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreString: X
-  ScoreValue: 10
+  ScoreValue: 4
   TextScore: {fileID: 808873353}
 --- !u!1 &1932074883
 GameObject:
@@ -19629,6 +19642,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1151457105}
+    - target: {fileID: 6987528530372400453, guid: cbd33d0f8e6aa9f40b93d6cc77068b85, type: 3}
+      propertyPath: Radius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6987528530372400453, guid: cbd33d0f8e6aa9f40b93d6cc77068b85, type: 3}
       propertyPath: aiPath
       value: 
