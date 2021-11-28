@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ani: {fileID: 3150639939581508630}
   speed: 10
+  Damage: 1
+  sfx_bullet: {fileID: 8300000, guid: 59bc78a06564b41408792bd5cbd822fa, type: 3}
 --- !u!50 &3150639939581508631
 Rigidbody2D:
   serializedVersion: 4
@@ -109,7 +111,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3150639939581508624}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -156,4 +158,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.72
+  m_Radius: 0.4
