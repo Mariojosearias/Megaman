@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         {
             extraJumps = extraJumpValue;
             myAnimator.SetBool("Sky", false);
-            //AudioSource.PlayClipAtPoint(sfx_land, Camera.main.transform.position);
+            //AudioSource.PlayClipAtPoint(sfx_jump, Camera.main.transform.position);
         }
         else
         {
