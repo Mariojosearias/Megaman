@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DisparoEnemy : MonoBehaviour
 {
-    public Transform player_pos;
+    [SerializeField] Transform player_pos;
     public Transform fire_point;
     public GameObject bala;
     private float tiempo;
@@ -13,7 +13,7 @@ public class DisparoEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player_pos = GameObject.Find("Player").transform;
+        //player_pos = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
